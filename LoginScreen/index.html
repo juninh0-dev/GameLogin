@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form in HTML and CSS | Codenal</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <div class="wrapper">
+        <form action="">
+            <h1>Login</h1> 
+            <div class="input-box">
+                <input type="text" placeholder="Nickname/Email" maxlength="30" required>
+                <i class='bx bxs-user'></i>
+            </div> 
+            <div class="input-box">
+                <input type="password" placeholder="Senha" minlength="8" maxlength="30" required>
+                <i class='bx bxs-lock-alt' ></i>
+            </div>
+
+            <div class="remeber-forgot">
+                <label><input type="checkbox">Lembre me</label>
+                <a href="#">Esqueci a senha?</a>
+            </div>
+            <button type="submit" class="btn">Login</button>
+            <div class="register-link">
+                <p>Não tenho uma conta
+                    <a href="#">Registre</a></p> 
+            </div>
+        </form>
+</body>
+</html>
